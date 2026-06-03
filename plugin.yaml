@@ -1,0 +1,8 @@
+name: lemonade-llm-image-support
+manifest_version: 1
+version: "1.1.1"
+description: >
+  LLM image generation via Lemonade Server (stable-diffusion.cpp, Flux, Qwen, SD).
+author: SkyLaTry
+kind: backend
+provides_hooks: []
