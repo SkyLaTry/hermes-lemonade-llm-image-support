@@ -12,7 +12,7 @@ For ComfyUI workflows, node management, and richer agent tooling, pair with **[h
 
 ## What it does
 
-This plugin registers a **Lemonade-backed** `image_gen` provider for Hermes. The agent can generate images locally through stable-diffusion.cpp models served by Lemonade — no cloud API keys, no external upload of prompts.
+This plugin registers a **Lemonade-backed** `image_gen` provider for Hermes. It allows both image generation and llm useage with the lemonade local api-endpint with auto detection and isntallation fo models. The agent can generate images locally through stable-diffusion.cpp models served by Lemonade — no cloud API keys, no external upload of prompts.
 
 Install lands under `image_gen/lemonade-llm-image-support/` so Hermes discovers the backend correctly. Bundled `common/` helpers ship with the release repo.
 
